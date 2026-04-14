@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F2E02 表單練習</title>
+    <link
+      rel="shortcut icon"
+      sizes="16x16"
+      href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <main>
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ/viewform"
+        method="post"
+      >
+        <section>
+          <div class="tt"></div>
+          <div>
+            <h1>F2E02 表單練習</h1>
+            <br />
+            <p class="s2">僅供新尖兵 F2E02 表單切版練習作業</p>
+            <hr />
+            <a
+              href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ%2Fviewform%3Fentry.1702755171%26entry.749434141%26entry.490196994%26entry.64302806%26entry.1435381962%26fbzx%3D-815534572824843447&dsh=S-1107170089%3A1776159161778206&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_VDElRp5NFaizFmpHOEoZrr7vFcMXB0X6u-0aCZfF2qfrLyjGk-iWs_1nCYAKDm2GY5DM6C2g"
+              class="s4"
+              >登入 Google</a
+            >
+            <span class="C s4">即可儲存進度</span>。<a href="" class="s4"
+              >瞭解詳情</a
+            >
+            <hr />
+            <span class="s4">* 表示必填問題</span>
+          </div>
+        </section>
+        <section>
+          <p>姓名<span>*</span></p>
+          <input type="text" name="username" placeholder="您的回答" required />
+        </section>
+        <section>
+          <p>信箱<span>*</span></p>
+          <input type="email" name="email" placeholder="您的回答" required />
+        </section>
+        <section>
+          <p>生日</p>
+          <input type="date" name="birthday" id="birthday" />
+        </section>
+        <section>
+          <p>想跟老師說悄悄話</p>
+          <input type="text" name="whisper" placeholder="您的回答" />
+        </section>
+        <section>
+          <div>
+            <p>喜歡的顏色</p>
+            <label
+              ><input type="radio" name="favorite_color" id="san1" /> 黃</label
+            >
+            <br />
+            <label
+              ><input type="radio" name="favorite_color" id="san2" /> 綠</label
+            >
+            <br />
+            <label
+              ><input type="radio" name="favorite_color" id="san2" /> 紅</label
+            >
+          </div>
+        </section>
+        <section>
+          <div>
+            <p>喜歡吃的飲食類型</p>
+            <label
+              ><input
+                type="checkbox"
+                name="favorite_food"
+                id="chinese"
+              />中式</label
+            >
+            <br />
+            <label
+              ><input
+                type="checkbox"
+                name="favorite_food"
+                id="italian"
+              />義式</label
+            >
+            <br />
+            <label
+              ><input
+                type="checkbox"
+                name="favorite_food"
+                id="japanese"
+              />日式</label
+            >
+            <br />
+            <label
+              ><input
+                type="checkbox"
+                name="favorite_food"
+                id="korean"
+              />韓式</label
+            >
+            <br />
+            <label
+              ><input
+                type="checkbox"
+                name="favorite_food"
+                id="american"
+              />美式</label
+            >
+            <br />
+            <label
+              ><input
+                type="checkbox"
+                name="favorite_food"
+                id="thai"
+              />泰式</label
+            >
+          </div>
+        </section>
+        <section>
+          <label for="country"
+            >最想去的國家 (使用 optgroup 將選項分為不同洲)</label
+          >
+          <br />
+          <select name="country" id="country">
+            <option value="" selected disabled>選擇</option>
+            <optgroup label="亞洲">
+              <option value="JP">日本</option>
+              <option value="KR">韓國</option>
+              <option value="TH">泰國</option>
+            </optgroup>
+            <optgroup label="歐洲">
+              <option value="DE">德國</option>
+              <option value="UK">英國</option>
+            </optgroup>
+
+            <optgroup label="美洲">
+              <option value="CA">加拿大</option>
+              <option value="US">美國</option>
+            </optgroup>
+          </select>
+        </section>
+
+        <div>
+          <button type="submit" class="B1">提交</button>
+
+          <button type="reset" class="B2">清除表單</button>
+        </div>
+      </form>
+      <div class="T2">請勿利用 Google 表單送出密碼。</div>
+      <div class="T2 Tac A">
+        這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。
+        <br />
+        這份表單很可疑嗎？ 報告
+      </div>
+      <div class="T3 Tac B">Google 表單</div>
+    </main>
+  </body>
+</html>
