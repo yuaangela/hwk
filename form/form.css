@@ -43,13 +43,8 @@ a {
   text-decoration: underline;
 }
 
-.tt {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  height: 10px;
-  width: 640px;
-  margin: 0 auto;
-  background-color: #673ab7;
+.ttt {
+  border-top: 10px solid #673ab7;
 }
 
 .T2 {
