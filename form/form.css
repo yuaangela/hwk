@@ -13,7 +13,6 @@ main {
 }
 
 section {
-  border: 9px solid red;
   border: 1px solid #dadada;
   width: 640px;
   margin: 0 auto;
