@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="form.css" />
+    <script src="form.js" defer></script>
   </head>
   <body>
     <main>
@@ -53,7 +54,7 @@
           <input type="text" name="whisper" placeholder="您的回答" />
         </section>
         <section>
-          <div>
+          <div class="FY" id="favoriteColorBlock">
             <p>喜歡的顏色</p>
             <label
               ><input type="radio" name="favorite_color" id="san1" /> 黃</label
@@ -66,7 +67,9 @@
             <label
               ><input type="radio" name="favorite_color" id="san2" /> 紅</label
             >
+            <br />
           </div>
+          <button type="reset" class="clear">清除選取的項目</button>
         </section>
         <section>
           <div>
@@ -112,11 +115,8 @@
             >
             <br />
             <label
-              ><input
-                type="checkbox"
-                name="favorite_food"
-                id="thai"
-              />泰式</label
+              ><input type="checkbox" name="favorite_food" id="thai" />
+              泰式</label
             >
           </div>
         </section>
