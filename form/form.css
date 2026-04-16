@@ -1,5 +1,6 @@
 body {
   background-color: #f0ebf8;
+  accent-color: #673ab7;
 }
 
 form {
@@ -24,7 +25,14 @@ section {
 }
 
 input {
+  border: none;
   border-bottom: 1px solid #dadada;
+  outline: none;
+  transition: border-bottom-color 0.3s ease;
+}
+
+input:focus {
+  border-bottom: 2px solid #673ab7;
 }
 
 h1 {
@@ -98,4 +106,15 @@ span {
 .B2 {
   text-align: right;
   color: #987acf;
+}
+
+.clear {
+  display: none;
+  width: 100%;
+  margin-left: auto;
+  color: #6c6a70;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: right;
 }
